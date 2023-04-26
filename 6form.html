@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body bgcolor="grey">
+    <h2>This is form in html</h2>
+    <form>
+        <!--To input name in the type of text and will be known to bro. by the name "Myname"-->
+        <div>
+            Name: <input type="text" name="Myname">
+        </div>
+        <br>
+        <!--To input role no in the type of text and will be remembered as "myRole"-->
+        <div>
+            Role no.: <input type="text" name="myRole">
+        </div>
+        <br>
+        <!--To input email in the type of email and will be remembered as "Myemail"-->
+        <div>
+            Email: <input type="email" name="Myemail">
+        </div>
+        <br>
+        <!--To input the date in the form and will be remembered as "mydate"-->
+        <div>
+            Date: <input type="date" name="mydate">
+        </div>
+        <br>
+        <!--To input a number-->
+        <div>
+            Number: <input type="number" name="mynumber">
+        </div>
+        <br>
+        <!--To input a checkbox-->
+        <div>
+            Are you eligible? <input type="checkbox" name="myeligibility">
+        </div>
+        <br>
+        <!--To select gender using radio button-->
+        <div>
+            Gender: Male<input type="radio" name="mygender">  Female<input type="radio" name="mygender"> Other <input type="radio" name="mygender">
+        </div>
+        <br>
+        <!--To submit the form by the button "Submit now"-->
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+        <br>
+        <!--To reset the form using reset button-->
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+
+        <div>
+            Write about yourself: <textarea name="myway"cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            Upload File: <input type="file" name="myfile">
+        </div>
+        <br>
+
+        <div>
+            <label for="car">CAR</label>
+            <select name="mycar" id="car">
+                <option value="cars">Car</option>
+                <option value="swift">swift</option>
+                <option value="bmw">bmw</option>
+            </select>
+
+        </div>
+    </form>
+    
+</body>
+</html>

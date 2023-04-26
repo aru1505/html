@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin & Padding</title>
+    <style>
+        .container{
+            background-color: azure;
+            border: 3px solid rgb(64, 6, 119);
+            border-radius: 23px;
+            
+        /* Ways to use padding in CSS */
+            padding: 45px;
+            padding-top: 78px;
+            padding-bottom: 78px;
+            padding-left: 34px;
+            padding-right: 34px;
+
+            padding: 23px 56px 23px 78px;    /*Padding: top right bottom left*/
+            padding: 34px 19px;              /*Padding: x(top/bottom) y(left/right)*/
+
+        /* Ways to use margin in CSS */
+            margin: 34px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            margin-left: 45px;
+            margin-right: 45px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Box Model, Margin & Padding</h2>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first"> This is my Paragraph one</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second"> This is my Paragraph two</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third"> This is my Paragraph three</p>
+    </div>
+</body>
+</html>

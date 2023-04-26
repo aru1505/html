@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links and Buttons AND Pseudo Selectors</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: black;
+            background-color: rosybrown;
+            border: 3px solid black;
+        }
+
+        a:visited{
+            background-color: red;
+        }
+
+        a:active{
+            background-color: orange;
+        }
+
+        .container{
+            border: 2px solid red;
+            background-color: rgb(223, 245, 201);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        .btn{
+            background-color: aqua;
+            margin: none;
+            padding: 6px;
+            font-size: 12px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h2>Styling Links and Buttons AND Pseudo Selectors</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita accusantium possimus aspernatur doloribus quos aut architecto, sunt, iste modi explicabo minima fugit quaerat. Nihil aliquam, molestias aliquid necessitatibus perferendis quasi.</p>
+
+        <a href="http://google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+
+</body>
+</html>
